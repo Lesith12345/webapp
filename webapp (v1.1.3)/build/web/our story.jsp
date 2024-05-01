@@ -1,0 +1,63 @@
+<%-- 
+    Document   : our story
+    Created on : 29-Apr-2024, 13:12:16
+    Author     : super
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story</title>
+    <link rel="stylesheet" href="css/our story.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <!-- navigation -->
+   <div>
+    <nav>
+       <img src="images/logo 1.png" alt="" width="100px" height="80px">
+       
+           <ul>
+
+           <li> <a href="welcome.jsp"class="active">Home</a></li>
+           <li> <a href="welcome.jsp">Product</a>
+             <div class="sub-menu">
+                <ul>
+                  
+   <li><a href="crok yoga mat.html">Crok Rubber Yoga mat</a></li>
+   <li><a href="pu yoga mat.html" >Pu Rubber Yoga Mat</a></li>
+   <li><a href="suede yoga mat.html" >Suede( Microfiber) Rubber Yoga Mat</a></li>
+   
+                </ul>
+             </div>
+              </li>
+           <li><a href="offer.jsp">Our story</a></li>
+            
+           <li> <a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li> <button class="button" onclick="location.href='login.html'">Login</button></li>
+           
+        </ul>
+ 
+    </nav>
+<div class="gif">
+<img src="images/gif our story.gif">
+</div>
+   <div class="text">
+    <p>Welcome to  "  Yoga Mats ", where tranquility meets innovation. Our yoga mats are more than just a surface; they're a sanctuary for your practice. Crafted with premium materials and precision, each mat is designed to support your journey towards mindfulness and well-being. Whether you're a seasoned yogi or just beginning your path, our mats offer the perfect balance of comfort, durability, and sustainability. Elevate your practice with "  Yoga Mats " and discover the harmony of mind, body, and soul.</p> <br><br>
+<p>At "  Yoga Mats ", we believe that your yoga mat should be an extension of your commitment to self-care and holistic living. That's why we're dedicated to creating mats that not only enhance your practice but also respect the planet. Made from eco-friendly materials and manufactured with responsible practices, our mats are a conscious choice for both you and the environment. With a range of styles and designs to suit every preference, "  Yoga Mats " invites you to experience the harmony of nature and mindfulness on a mat that truly supports your journey.</p>
+   </div>
+<div>
+    <h3>
+        Check Now , <a href="https://www.google.com/maps/place/Yoga+Mats/@37.7582177,-122.3953938,17z/data=!3m1!4b1!4m6!3m5!1s0x808f7fb75f201305:0xce56e6443fb7135!8m2!3d37.7582136!4d-122.3905229!16s%2Fg%2F1tgnrx7x?authuser=0&entry=ttu"><span>We In</span></a>
+    </h3>
+</div>
+ 
+</body>
+</html>
